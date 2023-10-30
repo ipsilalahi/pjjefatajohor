@@ -60,9 +60,9 @@ const startSock = () => {
                         // kirim data
                             }
                     } else {
-                        await sock.sendMessage(msg.key.remoteJid, {
-                            text: 'Ketik "tagihan" nake \nBujur!'
-                        })
+                        // await sock.sendMessage(msg.key.remoteJid, {
+                        //     text: 'Ketik "tagihan" nake \nBujur!'
+                        // })
                     }           
                     }}
             }
